@@ -12,9 +12,13 @@ echo "**************************************************************************
 echo "Mini-Jarvis Calculator Menu" 
 echo "1) Addition (+)     2) Subtraction (-)"
 echo "3) Division (/)     4) Multiplciation (*)"
+echo "5) Exit"
 
-echo "Dear Legendary User, select the available option that you want to try. Best of Luck"
 # Then, capture the user selection.
+echo "Dear Legendary User:) Please type the available operation that you want to try. Best of Luck"
+read operation
+
+echo "You have selected Operation: $operation"
 # If the selection matches a supported operation, execute the operation.
 # If the selection does not match a support operation, display an error message.
 # When the operation is complete, redisplay the menu.
