@@ -10,9 +10,10 @@ echo "**************************************************************************
   # Exit
 while true
 do
-
-echo "Mini-Jarvis Calculator Menu
-1) Addition (+)     
+echo "================================="
+echo "|| Mini-Jarvis Calculator Menu ||"
+echo "================================="
+echo "1) Addition (+)     
 2) Subtraction (-)
 3) Division (/)     
 4) Multiplciation (*)
